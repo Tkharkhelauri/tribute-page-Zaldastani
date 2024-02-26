@@ -1,0 +1,141 @@
+:root {
+	--ff-h1: 'Roboro Slab';
+	--ff-h3: 'Anton';
+	--ff-main: 'Baskervville';
+	--ff-fallback: 'san-serif';
+	--col-1: #c5c1c0;
+	--col-2: #0a1612;
+	--col-3: #a12930;
+	--col-4: #c09e26;
+	--col-5: #d4f879e0;
+}
+body {
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+#title {
+	font-size: 4rem;
+	color: #d4f879e0;
+	margin-bottom: 1rem;
+}
+#title-2 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 5rem;
+	color: var(--col-4);
+	text-transform: uppercase;
+	/* max-width: 80%; */
+	/* border: 1px solid var(--col-4); */
+}
+#img-div {
+	border: 2px solid var(--col-5);
+	border-radius: 20px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+#image {
+	border-radius: 35px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 1rem;
+}
+#img-caption,
+#title {
+	font-family: var(--ff-main);
+	text-align: center;
+}
+#img-caption {
+	font-size: 1.7rem;
+	padding: 2rem 0.5rem;
+}
+.wrapper {
+	position: relative;
+	border-bottom: 2px solid var(--col-5);
+}
+
+.subtitle {
+	/* position: absolute; */
+	top: -20px;
+	color: var(--col-5);
+	font-size: 1.8rem;
+	font-weight: 300;
+	margin-top: 35px;
+	text-transform: uppercase;
+	/* margin-left: -50%; */
+}
+#tribute-info {
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+.flex {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+/* .centered {
+	margin: 0 auto;
+} */
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+}
+
+#main {
+	margin: 30px 8px;
+	padding: 20px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.6;
+}
+li {
+	margin: 16px 0;
+}
+
+li,
+p,
+h4 {
+	font-family: var(--ff-main);
+	max-width: 550px;
+	width: 100%;
+}
+strong {
+	font-family: var(--ff-h1);
+	font-size: 1.5rem;
+	font-weight: 200;
+
+	/* color: var(--col-5); */
+}
+li {
+	color: var(--col-1);
+	font-weight: 100;
+	font-size: 1.2rem;
+}
+#footer {
+	text-align: right;
+	float: right;
+	color: var(--col-1);
+	margin: 1rem;
+}
+#tribute-link {
+	text-decoration: none;
+	color: var(--col-5);
+}
+/* @media screen and (min-width: 1000px) {
+	#img-div,
+	#title-2 {
+		max-width: 600px;
+    width: 100%
+	}
+} */
